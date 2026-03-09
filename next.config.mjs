@@ -1,11 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  output: 'export',      // To wymusza wygenerowanie statycznego HTML
+  basePath: '/xx',       // To mówi Next.js, że strona leży w podfolderze /xx/
   images: {
-    unoptimized: true,
+    unoptimized: true,   // GitHub Pages nie obsługuje automatycznej optymalizacji zdjęć Next.js
   },
-}
+};
 
-export default nextConfig
+export default nextConfig;
