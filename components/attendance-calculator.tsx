@@ -254,7 +254,7 @@ export function AttendanceCalculator() {
           <div className="space-y-2">
             <label className="text-sm font-medium text-foreground flex items-center gap-2">
               <Calculator className="w-4 h-4 text-primary" />
-              Wpisz swoje obecności w tym semestrze:
+              Wpisz swoje obecności w tym semestrze (obecności + zwolnienia + spóźnienia):
             </label>
             <input
               type="number"
